@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Task } from '../../task';
 import { NgFor } from '@angular/common';
-import { TaskService } from '../../services/task.service';
+import { TaskService } from '../../services/task/task.service';
 import { TaskComponent } from '../task/task.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AddTaskComponent } from '../add-task/add-task.component';
