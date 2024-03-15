@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ButtonComponent } from '../button/button.component';
+import { TasksComponent } from '../tasks/tasks.component';
 
 @Component({
   selector: 'app-header',
