@@ -15,4 +15,7 @@ export class TaskComponent implements OnInit {
   faTimes = faTimes;
   constructor() {}
   ngOnInit(): void {}
+  onDelete(task: Task): void {
+    console.log(task);
+  }
 }
